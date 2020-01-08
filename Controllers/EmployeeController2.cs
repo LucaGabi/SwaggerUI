@@ -5,7 +5,7 @@ using SwaggerUI.Models;
 namespace SwaggerUI.Controllers
 {
     [ApiVersion("2.0")]
-    [Route("api/v{v:apiVersion}/[controller]")]
+    [Route("api/v{v:apiVersion}/Employee")]
     [ApiController]
     public class Employee2Controller : ControllerBase
     {
@@ -74,16 +74,16 @@ namespace SwaggerUI.Controllers
             new Employee()
             {
                 Id = 1,
-                FirstName= "John",
-                LastName = "Smith",
-                EmailId ="John.Smith@gmail.com"
+                FirstName= "John2",
+                LastName = "Smith2",
+                EmailId ="John.Smith.2nd@gmail.com"
             },
             new Employee()
             {
                 Id = 2,
-                FirstName= "Jane",
-                LastName = "Doe",
-                EmailId ="Jane.Doe@gmail.com"
+                FirstName= "Jane2",
+                LastName = "Doe2",
+                EmailId ="Jane.Doe2@gmail.com"
             }
         };
         }

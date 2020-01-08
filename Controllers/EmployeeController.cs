@@ -5,7 +5,7 @@ using SwaggerUI.Models;
 namespace SwaggerUI.Controllers
 {
     [ApiVersion("1.0")]
-    [Route("api/v{v:apiVersion}/[controller]")]
+    [Route("api/v{v:apiVersion}/Employee")]
     [ApiController]
     public class EmployeeController : ControllerBase
     {
